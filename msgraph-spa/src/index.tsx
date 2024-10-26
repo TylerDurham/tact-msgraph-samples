@@ -7,8 +7,6 @@ import reportWebVitals from "./reportWebVitals";
 import { PublicClientApplication } from "@azure/msal-browser";
 import { MsalProvider } from "@azure/msal-react";
 import { msalConfig } from "./authConfig";
-console.log("test");
-console.log(process.env);
 
 const msalInstance = new PublicClientApplication(msalConfig);
 
